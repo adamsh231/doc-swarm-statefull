@@ -32,7 +32,7 @@ services:
 
 
 ---
-Development Only
+Development Only - Access Masih Denied
 ---
 1. copy `index.php` & `.htaccess`
 2. `mount /dev/xvdn /lol`
