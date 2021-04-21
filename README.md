@@ -29,3 +29,11 @@ services:
 10. modifying any file
 11. exiting container, and get into another container `docker exec -it <container-id-2-or-any> /bin/sh`
 12. get into volume binding `cd /usr/share/nginx/html`
+
+
+---
+Development Only
+---
+1. copy `index.php` & `.htaccess`
+2. `mount /dev/xvdn /lol`
+3. copy manual cok
