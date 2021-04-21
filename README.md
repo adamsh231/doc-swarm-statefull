@@ -35,5 +35,6 @@ services:
 Development Only - Access Masih Denied
 ---
 1. copy `index.php` & `.htaccess`
-2. `mount /dev/xvdn /lol`
-3. copy manual cok
+2. `chmod 777 -R & chown -R www-data:www-data`
+3. `mount /dev/xvdn /lol`
+4. copy manual cok
