@@ -4,7 +4,7 @@ Docker Swarm with statefulset
 1. install rexray (third-party ebs)`docker plugin install rexray/ebs EBS_ACCESSKEY=access_key EBS_SECRETKEY=secret_key`
 2. check plugin is installed `docker plugin ls`
 3. test it `docker volume ls`
-4. create volume `docker volume create --driver=rexray/ebs --name=<volume-name> --opy=size=<gigabyte> --opt=type=<gp2/gp3-default-standart>`
+4. create volume `docker volume create --driver=rexray/ebs --name=<volume-name> --opt=size=<gigabyte> --opt=type=<gp2/gp3-default-standart>`
 5. claim volume in compose
 ```
 version: '3.3'
