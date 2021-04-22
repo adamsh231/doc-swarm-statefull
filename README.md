@@ -34,7 +34,5 @@ services:
 ---
 Development Only - Access Masih Denied
 ---
-1. copy `index.php` & `.htaccess`
-2. `chmod 777 -R & chown -R www-data:www-data`
-3. `mount /dev/xvdn /lol`
-4. copy manual cok
+1. `apt install nfs-common`
+2. mount seperti pada efs
